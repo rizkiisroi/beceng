@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.beceng.carapp"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "carapp",
+    "packageName": "com.beceng.carapp",
+    "packageFolder": "com/beceng/carapp",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGNhZDMwMjVkODNhMmU3NWQ5N2QzMDVjMWQwYzcxZmUzZTgwMWJiYjNjNjcyMDM5MTVhNWFjMTc0ZmYyMzU4OGM1ZmI3OTUxNjg3OTQzZWM1Y2UwOGFjMmM0Njk5YjM2ZDU2Zjg2YjI3NzFkYjllMGJjNmU5YTI4Mzk0YTQ2YTE=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

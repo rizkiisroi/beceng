@@ -1,0 +1,4 @@
+#!/bin/sh
+log=car-app.log
+nohup sh ./mvnw > $log &
+echo "check logfile $log"

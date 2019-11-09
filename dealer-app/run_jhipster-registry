@@ -1,0 +1,4 @@
+#!/bin/sh
+log=registry.log
+nohup sh ./mvnw > $log &
+echo "check logfile $log"

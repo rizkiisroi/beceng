@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.beceng.gatewayappregis"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "gateway",
+    "baseName": "gatewayappregis",
+    "packageName": "com.beceng.gatewayappregis",
+    "packageFolder": "com/beceng/gatewayappregis",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjkzM2U0MTI1OWY4NWJkNDBlZmEzODc1MmU5MjY1NzZhMzkxNTAyMmYwY2VmZmQ4OGM2ZmIxYzBmNmE2NTVlN2VjZDJlZGE1YzQzOWE4YmZiY2U5OTQ5NjlmYzEwNjYzNWJhMzBkNjFkMjAwNGIzOWIxNmM2MGM5NzllN2M4NWI=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}

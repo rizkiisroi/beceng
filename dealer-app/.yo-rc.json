@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.beceng.dealerapp"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "dealerapp",
+    "packageName": "com.beceng.dealerapp",
+    "packageFolder": "com/beceng/dealerapp",
+    "serverPort": "8083",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWQzODczMmNkMmE2ZDQyMjAxN2JlZjkyNGQ0ZTM5ZDZhMDExMzE2NGNhZjFlZjEyZWRmMjIxYWJlZGM4M2ZkYjYzMzNlOTdiYzVkYTRhNWU5MDA0MGI3YzhmNWRmNzZlOWI5ODE1MjNhNTViZTQ5MzI0MWJiNzhlNWIwNDY4NTc=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
