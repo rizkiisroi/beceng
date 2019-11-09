@@ -1,0 +1,12 @@
+entity Company {
+    companyName String
+}
+
+entity Branch {
+    branchName String
+    branchAddress String
+}
+
+relationship OneToMany {
+    Branch to Company
+}
