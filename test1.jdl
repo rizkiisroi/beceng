@@ -25,6 +25,11 @@ entity StoreTrx{
     trxDate Date
 }
 
+entity StoreTrxDetails{
+	itemId String required unique maxlength(100),
+    finalPrice Double,
+    discount Double
+}
 entity RfItem{
     itemDesc String,
     qty Integer,
@@ -35,7 +40,8 @@ entity RfItem{
 }
 
 relationship OneToMany {
-    Branch to Company
+    RfBranch to RfCompany,
+    StoreTrx to StoreTrxDetails
 }
 
 relationship OneToOne{
@@ -45,8 +51,3 @@ relationship OneToOne{
 relationship OneToOne{
     StoreTrx to RfBranch
 }
-
-
-
-
-
